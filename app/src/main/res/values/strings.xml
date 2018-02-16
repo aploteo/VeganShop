@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vegan Shop</string>
+    <string name="text1">Vegan Food Store</string>
+    <string name="text2">935 Redcross Way</string>
+    <string name="text3">London SE1 1EZ, UK</string>
+    <string name="text4">+44 20 7407 2600</string>
+    <string name="text5">www.veganfood.com</string>
+    <string name="text6">Contact Us Now</string>
+    <string name="text7">Go to our website</string>
+    <string name="text8">Visit our website</string>
+</resources>

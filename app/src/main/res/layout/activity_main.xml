@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.veganshop.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:alpha="1"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="@dimen/margin_big"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/margin_big"
+        android:alpha="1"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_big"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:text="@string/text1"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icons8_map_pin_18"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:textSize="@dimen/text_size1"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/text1"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_big"
+        android:text="@string/text2"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:text="@string/text3"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_big"
+        android:paddingLeft="@dimen/padding_left"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size1" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icons8_phone_18"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:textSize="@dimen/text_size1"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_big"
+        android:text="@string/text4"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icons8_geography_18"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:textSize="@dimen/text_size1"
+        android:layout_below="@id/text4"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_big"
+        android:autoLink="web"
+        android:text="@string/text5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/button_text_size"
+        android:layout_marginBottom="@dimen/button_margins"
+        android:padding="@dimen/button_margins"
+        android:onClick="openWebSite"
+        android:contentDescription="@string/text8"
+        android:text="@string/text6"/>
+
+</RelativeLayout>
